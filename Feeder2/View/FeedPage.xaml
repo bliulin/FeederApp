@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Feeder.PivotApp.View.FeedPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Feeder.PivotApp.View"
+    xmlns:conv="using:Feeder.PivotApp.View.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    >
+
+    <Page.Resources>
+        <conv:DebugConverter x:Key="debugConverter" />                
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Style="{StaticResource Title}" Grid.Row="0"
+                   Text="{Binding Title}"/>
+        <TextBlock Style="{StaticResource Status}" Grid.Row="1"
+                   Text="{Binding Summary}"/>
+        
+        <local:ArticlesControl x:Name="articlesControl" ItemClicked="ListView_ItemClick" Grid.Row="2"></local:ArticlesControl>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar ClosedDisplayMode="Compact">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:Name="btnUpdate" Label="Update" Icon="Refresh" Click="btnUpdate_Click"/>
+                <AppBarButton x:Name="btnClear" Label="Clear" Icon="Delete" Click="btnClear_Click"/>
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="btnMarkAllAsRead" Label="Mark all as read" Click="btnMarkAllAsRead_Click" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+</Page>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="11035bliulin.Feedling" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN, EN-US</Language>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://11035bliulin.Feedling/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Feeder.xr.xml" uri="ms-resource://11035bliulin.Feedling/Files/Feeder.xr.xml">
+				<Candidate type="Path">
+					<Value>Feeder.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo-about.png" uri="ms-resource://11035bliulin.Feedling/Files/Assets/Logo-about.png">
+					<Candidate type="Path">
+						<Value>Assets\Logo-about.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://11035bliulin.Feedling/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://11035bliulin.Feedling/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://11035bliulin.Feedling/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://11035bliulin.Feedling/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://11035bliulin.Feedling/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://11035bliulin.Feedling/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Data">
+				<NamedResource name="popularFeeds.json" uri="ms-resource://11035bliulin.Feedling/Files/Data/popularFeeds.json">
+					<Candidate type="Path">
+						<Value>Data\popularFeeds.json</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Settings">
+				<NamedResource name="SettingsPage.xbf" uri="ms-resource://11035bliulin.Feedling/Files/Settings/SettingsPage.xbf">
+					<Candidate type="Path">
+						<Value>Settings\SettingsPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Styles">
+				<NamedResource name="BasicStyle.xbf" uri="ms-resource://11035bliulin.Feedling/Files/Styles/BasicStyle.xbf">
+					<Candidate type="Path">
+						<Value>Styles\BasicStyle.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="View">
+				<NamedResource name="ArticlesControl.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/ArticlesControl.xbf">
+					<Candidate type="Path">
+						<Value>View\ArticlesControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FeedItemPage.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/FeedItemPage.xbf">
+					<Candidate type="Path">
+						<Value>View\FeedItemPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FeedPage.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/FeedPage.xbf">
+					<Candidate type="Path">
+						<Value>View\FeedPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FeedsPage.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/FeedsPage.xbf">
+					<Candidate type="Path">
+						<Value>View\FeedsPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ItemsCountControl.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/ItemsCountControl.xbf">
+					<Candidate type="Path">
+						<Value>View\ItemsCountControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PivotPage.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/PivotPage.xbf">
+					<Candidate type="Path">
+						<Value>View\PivotPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PopularFeedsControl.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/PopularFeedsControl.xbf">
+					<Candidate type="Path">
+						<Value>View\PopularFeedsControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SelectableFeedsControl.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/SelectableFeedsControl.xbf">
+					<Candidate type="Path">
+						<Value>View\SelectableFeedsControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="About">
+					<NamedResource name="AboutPage.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/About/AboutPage.xbf">
+						<Candidate type="Path">
+							<Value>View\About\AboutPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="CreateFeeds">
+					<NamedResource name="AddFromView.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/CreateFeeds/AddFromView.xbf">
+						<Candidate type="Path">
+							<Value>View\CreateFeeds\AddFromView.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FeedEditDialog.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/CreateFeeds/FeedEditDialog.xbf">
+						<Candidate type="Path">
+							<Value>View\CreateFeeds\FeedEditDialog.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SearchForFeedsView.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/CreateFeeds/SearchForFeedsView.xbf">
+						<Candidate type="Path">
+							<Value>View\CreateFeeds\SearchForFeedsView.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Search">
+					<NamedResource name="SearchPage.xbf" uri="ms-resource://11035bliulin.Feedling/Files/View/Search/SearchPage.xbf">
+						<Candidate type="Path">
+							<Value>View\Search\SearchPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Practices.ServiceLocation.Properties.Resources">
+			<NamedResource name="ActivateAllExceptionMessage" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.ServiceLocation.Properties.Resources/ActivateAllExceptionMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Activation error occurred while trying to get all instances of type {0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ActivationExceptionMessage" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.ServiceLocation.Properties.Resources/ActivationExceptionMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Activation error occurred while trying to get instance of type {0}, key "{1}"</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ServiceLocationProviderNotSetMessage" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.ServiceLocation.Properties.Resources/ServiceLocationProviderNotSetMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>ServiceLocationProvider must be set.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Practices.Unity.Properties.Resources">
+			<NamedResource name="AmbiguousInjectionConstructor" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/AmbiguousInjectionConstructor">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} has multiple constructors of length {1}. Unable to disambiguate.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentMustNotBeEmpty" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ArgumentMustNotBeEmpty">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The provided string argument must not be empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BuildFailedException" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/BuildFailedException">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The current build operation (build key {2}) failed: {3} (Strategy type {0}, index {1})</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotConstructAbstractClass" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotConstructAbstractClass">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The current type, {0}, is an abstract class and cannot be constructed. Are you missing a type mapping?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotConstructDelegate" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotConstructDelegate">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The current type, {0}, is delegate and cannot be constructed. Unity only supports resolving Func&lt;T&gt; and Func&lt;IEnumerable&lt;T&gt;&gt; by default.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotConstructInterface" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotConstructInterface">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The current type, {0}, is an interface and cannot be constructed. Are you missing a type mapping?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotExtractTypeFromBuildKey" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotExtractTypeFromBuildKey">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Cannot extract type from build key {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotInjectGenericMethod" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotInjectGenericMethod">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The method {0}.{1}({2}) is an open generic method. Open generic methods cannot be injected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotInjectIndexer" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotInjectIndexer">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The property {0} on type {1} is an indexer. Indexed properties cannot be injected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotInjectMethodWithOutParam" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotInjectMethodWithOutParam">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The method {1} on type {0} has an out parameter. Injection cannot be performed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotInjectMethodWithOutParams" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotInjectMethodWithOutParams">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The method {0}.{1}({2}) has at least one out parameter. Methods with out parameters cannot be injected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotInjectMethodWithRefParams" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotInjectMethodWithRefParams">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The method {0}.{1}({2}) has at least one ref parameter.Methods with ref parameters cannot be injected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotInjectOpenGenericMethod" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotInjectOpenGenericMethod">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The method {1} on type {0} is marked for injection, but it is an open generic method. Injection cannot be performed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotInjectStaticMethod" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotInjectStaticMethod">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The method {0}.{1}({2}) is static. Static methods cannot be injected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotResolveOpenGenericType" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/CannotResolveOpenGenericType">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} is an open generic type. An open generic type cannot be resolved.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ConstructorArgumentResolveOperation" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ConstructorArgumentResolveOperation">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Resolving parameter "{0}" of constructor {1}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ConstructorParameterResolutionFailed" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ConstructorParameterResolutionFailed">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The parameter {0} could not be resolved when attempting to call constructor {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ExceptionNullParameterValue" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ExceptionNullParameterValue">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Parameter type inference does not work for null values. Indicate the parameter type explicitly using a properly configured instance of the InjectionParameter or InjectionParameter&lt;T&gt; classes.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvokingConstructorOperation" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/InvokingConstructorOperation">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Calling constructor {0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvokingMethodOperation" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/InvokingMethodOperation">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Calling method {0}.{1}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="KeyAlreadyPresent" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/KeyAlreadyPresent">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>An item with the given key is already present in the dictionary.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LifetimeManagerInUse" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/LifetimeManagerInUse">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The lifetime manager is already registered. Lifetime managers cannot be reused, please create a new one.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MarkerBuildPlanInvoked" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/MarkerBuildPlanInvoked">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The override marker build plan policy has been invoked. This should never happen, looks like a bug in the container.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MethodArgumentResolveOperation" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/MethodArgumentResolveOperation">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Resolving parameter "{0}" of method {1}.{2}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MethodParameterResolutionFailed" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/MethodParameterResolutionFailed">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The value for parameter "{1}" of method {0} could not be resolved. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MissingDependency" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/MissingDependency">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Could not resolve dependency for build key {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MultipleInjectionConstructors" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/MultipleInjectionConstructors">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} has multiple constructors marked with the InjectionConstructor attribute. Unable to disambiguate.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MustHaveOpenGenericType" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/MustHaveOpenGenericType">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The supplied type {0} must be an open generic type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MustHaveSameNumberOfGenericArguments" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/MustHaveSameNumberOfGenericArguments">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The supplied type {0} does not have the same number of generic arguments as the target type {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoConstructorFound" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NoConstructorFound">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} does not have an accessible constructor.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoMatchingGenericArgument" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NoMatchingGenericArgument">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} does not have a generic argument named "{1}"</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoOperationExceptionReason" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NoOperationExceptionReason">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>while resolving</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoSuchConstructor" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NoSuchConstructor">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} does not have a constructor that takes the parameters ({1}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoSuchMethod" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NoSuchMethod">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} does not have a public method named {1} that takes the parameters ({2}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoSuchProperty" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NoSuchProperty">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} does not contain an instance property named {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotAGenericType" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NotAGenericType">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} is not a generic type, and you are attempting to inject a generic parameter named "{1}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotAnArrayTypeWithRankOne" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/NotAnArrayTypeWithRankOne">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} is not an array type with rank 1, and you are attempting to use a [DependencyArray] attribute on a parameter or property with this type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OptionalDependenciesMustBeReferenceTypes" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/OptionalDependenciesMustBeReferenceTypes">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Optional dependencies must be reference types. The type {0} is a value type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PropertyNotSettable" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/PropertyNotSettable">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The property {0} on type {1} is not settable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PropertyTypeMismatch" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/PropertyTypeMismatch">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The property {0} on type {1} is of type {2}, and cannot be injected with a value of type {3}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PropertyValueResolutionFailed" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/PropertyValueResolutionFailed">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The value for the property "{0}" could not be resolved.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ProvidedStringArgMustNotBeEmpty" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ProvidedStringArgMustNotBeEmpty">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The provided string argument must not be empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ResolutionFailed" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ResolutionFailed">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Resolution of the dependency failed, type = "{0}", name = "{1}".
+Exception occurred while: {2}.
+Exception is: {3} - {4}
+-----------------------------------------------
+At the time of the exception, the container was:
+</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ResolutionTraceDetail" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ResolutionTraceDetail">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Resolving {0},{1}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ResolutionWithMappingTraceDetail" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ResolutionWithMappingTraceDetail">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Resolving {0},{1} (mapped from {2}, {3})</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ResolvingPropertyValueOperation" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/ResolvingPropertyValueOperation">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Resolving value for property {0}.{1}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SelectedConstructorHasRefParameters" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/SelectedConstructorHasRefParameters">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The constructor {1} selected for type {0} has ref or out parameters. Such parameters are not supported for constructor injection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SettingPropertyOperation" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/SettingPropertyOperation">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Setting value for property {0}.{1}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TypeIsNotConstructable" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/TypeIsNotConstructable">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {0} cannot be constructed. You must configure the container to supply this value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TypesAreNotAssignable" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/TypesAreNotAssignable">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The type {1} cannot be assigned to variables of type {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UnknownType" uri="ms-resource://11035bliulin.Feedling/Microsoft.Practices.Unity.Properties.Resources/UnknownType">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>&lt;unknown&gt;</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="NavigationFailedExceptionMessage" uri="ms-resource://11035bliulin.Feedling/Resources/NavigationFailedExceptionMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Navigation failed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NewItemDescription" uri="ms-resource://11035bliulin.Feedling/Resources/NewItemDescription">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Description: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NewItemTitle" uri="ms-resource://11035bliulin.Feedling/Resources/NewItemTitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: {0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Text_NeverUpdated" uri="ms-resource://11035bliulin.Feedling/Resources/Text_NeverUpdated">
+				<Candidate type="String">
+					<Value>Never updated</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="AddAppBarButton">
+				<NamedResource name="Label" uri="ms-resource://11035bliulin.Feedling/Resources/AddAppBarButton/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>add</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ApplicationTitle">
+				<NamedResource name="Text" uri="ms-resource://11035bliulin.Feedling/Resources/ApplicationTitle/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Feeder</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Header">
+				<NamedResource name="Text" uri="ms-resource://11035bliulin.Feedling/Resources/Header/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Feeder</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Pivot">
+				<NamedResource name="Title" uri="ms-resource://11035bliulin.Feedling/Resources/Pivot/Title">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Feeder</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PivotItem2">
+				<NamedResource name="Header" uri="ms-resource://11035bliulin.Feedling/Resources/PivotItem2/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>second</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SecondaryButton1">
+				<NamedResource name="Label" uri="ms-resource://11035bliulin.Feedling/Resources/SecondaryButton1/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>secondary command 1</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SecondaryButton2">
+				<NamedResource name="Label" uri="ms-resource://11035bliulin.Feedling/Resources/SecondaryButton2/Label">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>secondary command 2</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

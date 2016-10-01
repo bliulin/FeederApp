@@ -1,0 +1,103 @@
+﻿<Page
+    x:Class="Feeder.PivotApp.Settings.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Feeder.PivotApp.Settings"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="Setting">
+            <Setter Property="FontSize" Value="{ThemeResource TextStyleMediumFontSize}"/>
+            <Setter Property="Foreground" Value="Gray"></Setter>
+            <Setter Property="Margin" Value="0 20 0 0"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="SubSetting">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="ToggleSwitch">
+            <Setter Property="Margin" Value="0 -12 0 0"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Feeder" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Settings" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalContentAlignment="Stretch" VerticalScrollMode="Auto">
+            <!--TODO: Content should be placed within the following grid-->
+            <Grid x:Name="ContentRoot" Margin="19,9.5,19,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Style="{StaticResource Setting}">Update feeds automatically</TextBlock>
+                <ToggleSwitch Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Stretch" IsOn="{Binding AutoUpdate, Mode=TwoWay}"></ToggleSwitch>
+
+                <TextBlock Grid.Row="2" Style="{StaticResource Setting}">Article history</TextBlock>
+                <!--<ToggleSwitch Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Stretch" IsOn="{Binding DisplayImages, Mode=TwoWay}"></ToggleSwitch>-->
+                <CheckBox x:Name="checkKeepFeeds" Grid.Row="3" Content="Keep only latest articles" IsChecked="{Binding KeepOnlyLatestArticles, Mode=TwoWay}"></CheckBox>
+
+                <!--<TextBlock Grid.Row="4" Style="{StaticResource Setting}">Keep articles from</TextBlock>
+                <ComboBox Grid.Row="5" IsEnabled="{Binding ElementName=checkKeepFeeds, Path=IsChecked}"
+                          ItemsSource="{Binding KeepFeedsFrom}"
+                          SelectedItem="{Binding SelectedFrom, Mode=TwoWay}">
+                </ComboBox>-->
+
+                <TextBlock Grid.Row="10" Style="{StaticResource Setting}">Display images in news list</TextBlock>
+                <ToggleSwitch Grid.Row="11" VerticalAlignment="Top" HorizontalAlignment="Stretch" IsOn="{Binding DisplayImages, Mode=TwoWay}"></ToggleSwitch>
+
+                <TextBlock Grid.Row="12" Style="{StaticResource Setting}">Feed content alignment</TextBlock>
+                <ComboBox Grid.Row="13" ItemsSource="{Binding TextAlignmentValues}" SelectedItem="{Binding SelectedTextAlignment, Mode=TwoWay}">
+                </ComboBox>
+
+                <TextBlock Grid.Row="16" Style="{StaticResource Setting}">Show article summary</TextBlock>
+                <ToggleSwitch Grid.Row="17" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Stretch" IsOn="{Binding ArticleQuickView, Mode=TwoWay}"></ToggleSwitch>
+
+                <TextBlock Grid.Row="18" Style="{StaticResource Setting}">Send diagnostics data</TextBlock>
+                <ToggleSwitch Grid.Row="19" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Stretch" IsOn="{Binding TelemetryEnabled, Mode=TwoWay}"></ToggleSwitch>
+
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Page>
+

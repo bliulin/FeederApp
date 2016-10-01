@@ -1,0 +1,102 @@
+﻿<Page
+    x:Class="Feeder.PivotApp.PivotPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Feeder.PivotApp"
+    xmlns:search="using:Feeder.PivotApp.View.Search"
+    xmlns:view="using:Feeder.PivotApp.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Feeder.PivotApp.Data"
+    xmlns:vm="using:Feeder.Common.ViewModel"
+    xmlns:dm="using:Feeder.PivotApp.DataModel"
+    mc:Ignorable="d"    
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <CommonNavigationTransitionInfo IsStaggeringEnabled="True"/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid>
+        <Pivot x:ConnectionId='1' x:Uid="Pivot" x:Name="pivot" CommonNavigationTransitionInfo.IsStaggerElement="True"                                          >
+            <PivotItem
+                x:Uid="PivotItem1"
+                Margin="19,14.5,0,0"
+                Header="groups"                
+                CommonNavigationTransitionInfo.IsStaggerElement="True">
+                <ListView x:ConnectionId='5'
+                    x:Name="listFeedGroups"
+                    ItemsSource="{Binding FeedGroups}"
+                    IsItemClickEnabled="True"
+                                                  
+                    ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <view:ItemsCountControl VerticalAlignment="Center"></view:ItemsCountControl>
+                                <StackPanel x:ConnectionId='6' Margin="0,0,0,9.5" Grid.Column="1"                             >
+                                    <TextBox x:ConnectionId='7' x:Name="textBoxName" Text="{Binding Name, Mode=OneWay}" Visibility="Collapsed"
+                                                                          ></TextBox>
+                                    <TextBlock
+                                        x:Name="textBlockName"
+                                    Text="{Binding Name}"
+                                    TextWrapping="Wrap"
+                                    Pivot.SlideInAnimationGroup="1"
+                                    CommonNavigationTransitionInfo.IsStaggerElement="True"
+                                    Style="{StaticResource FolderItemList}"
+                                    Margin="0,0,19,0"/>
+                                    <TextBlock
+                                    Text="{Binding Summary}"
+                                    TextWrapping="WrapWholeWords"
+                                    Pivot.SlideInAnimationGroup="2" 
+                                    CommonNavigationTransitionInfo.IsStaggerElement="True" 
+                                    Style="{StaticResource FolderItemListSub}"
+                                    Margin="0,0,19,0"/>
+                                    <FlyoutBase.AttachedFlyout>
+                                        <MenuFlyout>
+                                            <MenuFlyoutItem x:ConnectionId='8' Text="Delete"                                   />
+                                            <MenuFlyoutItem x:ConnectionId='9' Text="Rename"                                   />
+                                        </MenuFlyout>
+                                    </FlyoutBase.AttachedFlyout>
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </PivotItem>
+            <PivotItem Header="all" CommonNavigationTransitionInfo.IsStaggerElement="True">
+                <view:ArticlesControl x:ConnectionId='4' x:Name="articleCtrlAll"                                          ></view:ArticlesControl>
+            </PivotItem>
+            <PivotItem Header="unread" CommonNavigationTransitionInfo.IsStaggerElement="True">
+                <view:ArticlesControl x:ConnectionId='3' x:Name="articleCtrlUnread"                                          ></view:ArticlesControl>
+            </PivotItem>
+            <PivotItem Header="saved" CommonNavigationTransitionInfo.IsStaggerElement="True">
+                <view:ArticlesControl x:ConnectionId='2' x:Name="articleCtrlSaved"                                          ></view:ArticlesControl>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar ClosedDisplayMode="Compact">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:ConnectionId='10' x:Uid="AddAppBarButton" x:Name="sddAppBarButton" Label="add feeds" Icon="Add"                               />
+                <AppBarButton x:ConnectionId='11' x:Uid="SearchAppBarButton" x:Name="searchAppBarButton" Label="search" Icon="Find"                                 />
+                <AppBarButton x:ConnectionId='12' x:Uid="SettingsAppBarButton" x:Name="settingsAppBarButton" Label="settings" Icon="Setting"                                   />
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='13' x:Name="aboutButton" Label="About Feeder"                          />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+

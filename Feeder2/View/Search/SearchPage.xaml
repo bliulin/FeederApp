@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="Feeder.PivotApp.View.Search.SearchPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Feeder.PivotApp.View.Search"
+    xmlns:view="using:Feeder.PivotApp.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    NavigationCacheMode="Enabled"
+    >
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Feeder" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="search in articles" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox
+                    Grid.Column="0" Grid.Row="0"                
+                         PlaceholderText="Enter search term..."                     
+                         HorizontalAlignment="Stretch"
+                         Name="txtSearch"       
+                ></TextBox>
+
+                <Button x:Name="searchBtn"
+                    Grid.Row="0" Grid.Column="1" 
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Left"
+                        Margin="10 0 0 0" Click="searchBtn_Click">Search</Button>
+            </Grid>
+
+            <view:ArticlesControl Grid.Row="1" ItemClicked="ArticlesControl_ItemClicked"/>
+            
+        </Grid>
+    </Grid>
+</Page>

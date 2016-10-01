@@ -1,0 +1,355 @@
+﻿[
+  {
+    "Title": "News",
+    "Description": "Folder",
+    "Feeds": [
+      {
+        "Id": "53ed2085-1da4-4d2c-bb2f-49dacdf9363f",
+        "Title": "BBC",
+        "Description": "Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives. Also entertainment, business, science, technology and health news.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/uYunhGc6mnMcwnCnr6rDEvRhdZsfgW3FK1p4gMSHkiM_icon-14ce3cf86cc",
+        "Items": [
+          
+        ],
+        "Name": "BBC",
+        "Url": "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "News"
+      },
+      {
+        "Id": "fad60d45-7f62-46d4-8e3d-5ed63c10c9a1",
+        "Title": "NYT > Home Page",
+        "Description": "Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies & more.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/2IAKmisI-skG5eJD6FDanzV4JS35tHTM1ILbuVimBro_sicon-14834fb95c0",
+        "Items": [
+          
+        ],
+        "Name": "NYT > Home Page",
+        "Url": "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "News"
+      },
+      {
+        "Id": "5532e043-5882-4222-ad92-c6d5ca0a3a6e",
+        "Title": "Reuters",
+        "Description": "Reuters.com is your source for breaking news, business, financial and investing news, including personal finance and stocks. Reuters is the leading global provider of news, financial information and technology solutions to the world's media, financial institutions, businesses and individuals.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/HRVU43C3QNjI2YNW0cqiEhW1I1mfsY0OucW0UZuUljs_icon-14a5b262249",
+        "Items": [
+          
+        ],
+        "Name": "Reuters",
+        "Url": "http://feeds.reuters.com/reuters/topNews?irpc=69",
+        "LastUpdateTime": null,
+        "ParentGroupName": "News"
+      },
+      {
+        "Id": "9346086b-4386-4088-9573-d729193324dc",
+        "Title": "Mediafax",
+        "Description": "Ştirile de ultimă oră, disponibile online. Mediafax.ro iti ofera ştiri interne si externe în timp real, ştiri politice, ştiri economice, mondene, sociale si din sport",
+        "ImageUri": "http://storage.googleapis.com/site-assets/w2OaocZ8ylMnTjVeuXxJ50z2Odz52jdA3ogj00qTSi8_icon-14a5bd8baee",
+        "Items": [
+          
+        ],
+        "Name": "Mediafax",
+        "Url": "http://www.mediafax.ro/rss/",
+        "LastUpdateTime": null,
+        "ParentGroupName": "News"
+      },
+      {
+        "Id": "326464fd-4b03-4919-8f61-d440438c5f3e",
+        "Title": "Al Jazeera America",
+        "Description": "Al Jazeera America",
+        "ImageUri": "http://storage.googleapis.com/site-assets/3CJWuM6cATPLse5-uJQ4sPXuCx8OnNb2mO0_JKKr-w0_icon-151d63e47f7",
+        "Items": [
+          
+        ],
+        "Name": "Al Jazeera America",
+        "Url": "http://america.aljazeera.com/content/ajam/articles.rss",
+        "LastUpdateTime": null,
+        "ParentGroupName": "News"
+      },
+      {
+        "Id": "8309ddb8-1e2d-40df-b32d-805063a5d462",
+        "Title": "ABC News",
+        "Description": "ABC News",
+        "ImageUri": "http://storage.googleapis.com/site-assets/qvp3ktcoRC66PXWCqBjxN2MbWYclffkPjNpADz_-guA_ficon-151b60cee36",
+        "Items": [
+          
+        ],
+        "Name": "ABC News",
+        "Url": "http://feeds.abcnews.com/abcnews/topstories",
+        "LastUpdateTime": null,
+        "ParentGroupName": "News"
+      }
+    ]
+  },
+  {
+    "Title": "Sport",
+    "Description": "Folder",
+    "Feeds": [      
+      {
+        "Id": "e2420cd6-f363-4c46-881d-a1a9891af37e",
+        "Title": "Eurosport - Top infos",
+        "Description": "Follow the latest sports news, live-scores and results. Eurosport.com, the european leader in sports",
+        "ImageUri": "http://storage.googleapis.com/site-assets/QnF2FqfiBrSHT8bnfFUOgbH7SSBdbNPpxKcigVp4fI0_ficon-15235dabf6e",
+        "Items": [
+          
+        ],
+        "Name": "Eurosport - Top infos",
+        "Url": "http://eurosport.com/rss.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Sport"
+      },
+      {
+        "Id": "524bfbbc-3f99-4ebe-8558-45d40d210c7e",
+        "Title": "BBC Sport - Sport",
+        "Description": "BBC Sport - live sports coverage, breaking news, results, video, audio and analysis on Football, F1, Cricket, Rugby Union, Rugby League, Golf, Tennis and all the main world sports, plus major events like the Olympic Games.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/HjexZXZU2cZJFDSROfYCyUYe6C2On9dOBZU9shpQv5s_sicon-14835332ffc",
+        "Items": [
+          
+        ],
+        "Name": "BBC Sport - Sport",
+        "Url": "http://newsrss.bbc.co.uk/rss/sportonline_world_edition/front_page/rss.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Sport"
+      },
+      {
+        "Id": "51bebdf8-459c-4758-adb7-ce4f281495a2",
+        "Title": "Yahoo! Sports",
+        "Description": "Get the latest sports news headlines from Yahoo! News. Find breaking sports news, including analysis and opinion on top sports stories.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/3hvfoFwzUXq8ww5c1MbRugbiXzmnMpu0qzon8Ybfs3k_icon-151e79fbda1",
+        "Items": [
+          
+        ],
+        "Name": "Yahoo! Sports",
+        "Url": "http://rss.news.yahoo.com/rss/sports",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Sport"
+      },
+      {
+        "Id": "1763f2ba-cfc2-4671-92f6-de257f07f8ca",
+        "Title": "Bleacher Report",
+        "Description": "Bleacher Report - The open source sports network",
+        "ImageUri": "http://storage.googleapis.com/site-assets/causQNG8JAzAE7rHqb8r4MQMhGbF0x8nPJdcfiQ_46A_icon-14a5bca50cf",
+        "Items": [
+          
+        ],
+        "Name": "Bleacher Report",
+        "Url": "http://bleacherreport.com/articles/feed",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Sport"
+      }
+    ]
+  },
+  {
+    "Title": "Business",
+    "Description": "Folder",
+    "Feeds": [      
+      {
+        "Id": "86018783-c9f0-4162-beed-d572fdeb42c2",
+        "Title": "Business Insider",
+        "Description": "Feed for Feedly",
+        "ImageUri": "http://storage.googleapis.com/site-assets/UGoT913Pj2iVsp570XrRhskqe5_o7yyV3N_NTloByRs_icon-150cbd59ca5",
+        "Items": [
+          
+        ],
+        "Name": "Business Insider",
+        "Url": "http://feeds2.feedburner.com/businessinsider",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Business"
+      },
+      {
+        "Id": "feb2c639-ebea-4e84-8460-1a63ae2c7dab",
+        "Title": "Forbes - Entrepreneurs",
+        "Description": "Forbes - Entrepreneurs",
+        "ImageUri": null,
+        "Items": [
+          
+        ],
+        "Name": "Forbes - Entrepreneurs",
+        "Url": "http://www.forbes.com/entrepreneurs/index.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Business"
+      },
+      {
+        "Id": "191d3621-aced-477b-8148-d61c04257b37",
+        "Title": "Forbes.com: Most popular stories",
+        "Description": "Most Popular ranks news stories, photos and videos by engagement on Forbes.com, Facebook, Twitter, LinkedIn and more.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/F_nYF3-tPvM_WTL49eOyN1hg2cW-B85Y4LdNbGq7S0c_icon-14a5cd2cf62",
+        "Items": [
+          
+        ],
+        "Name": "Forbes.com: Most popular stories",
+        "Url": "http://www.forbes.com/feeds/popstories.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Business"
+      },
+      {
+        "Id": "24ae21af-d496-43b3-8195-a6da21787581",
+        "Title": "The Economist: Finance and economics",
+        "Description": "The Economist offers authoritative insight and opinion on international news, politics, business, finance, science, technology and the connections between them.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/iAIUsVHadavS0Zh078N8sKe5eQvOQg5FWJOpvgUGarc_icon-14a5b26cd2c",
+        "Items": [
+
+        ],
+        "Name": "The Economist: Finance and economics",
+        "Url": "http://www.economist.com/rss/finance_and_economics_rss.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Business"
+      },
+      {
+        "Id": "688c8070-049d-4c78-b1cc-77d403fa221a",
+        "Title": "Venture Capital News",
+        "Description": "Venture Capital News",
+        "ImageUri": "http://storage.googleapis.com/site-assets/ImJ6hHflp1jfugljJ-I1h2YBGJAGTBSe2T1T1e8fJDY_icon-14a5bfb007c",
+        "Items": [],
+        "Name": "Venture Capital News",
+        "Url": "http://rss.topix.net/rss/business/venture-capital.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Business"
+      },
+      {
+        "Id": "ec43ab3c-e9ab-422b-8e3e-5bfa35a6f96d",
+        "Title": "Ultimele stiri financiare si economice | Business | Ziare.com",
+        "Description": "Ultimele stiri din zona de business. Afaceri interne si internationale. Companii si joburi din economia romaneasca.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/-huTyKRuzK34em3YRly1EdvbbZTcd7r1XjI33wjgdjQ_ficon-15190827ed6",
+        "Items": [
+          
+        ],
+        "Name": "Ultimele stiri financiare si economice | Business | Ziare.com",
+        "Url": "http://www.ziare.com/rss/business.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Business"
+      }
+    ]
+  },
+  {
+    "Title": "Science & Technology",
+    "Description": "Folder",
+    "Feeds": [
+      {
+        "Id": "95a2d57f-1533-4c93-aec6-7dca0ae72d7c",
+        "Title": "Ars Technica",
+        "Description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/oWwSZ9Xu4Zg49bpJDa0MWTMCyM67pScdNU-gxmUAZuo_icon-14bf385de83",
+        "Items": [
+          
+        ],
+        "Name": "Ars Technica",
+        "Url": "http://feeds.arstechnica.com/arstechnica/index/",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Science & Technology"
+      },      
+      {
+        "Id": "3664712e-1e0b-425f-9da0-fe5a500c6ce8",
+        "Title": "The Verge",
+        "Description": "Covering the intersection of technology, science, art, and culture.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/PSNTZO8gXFUe-cpCZyApw0vEKWPT4b14D6teBEocIAE_ficon-14dfdc1ee4f",
+        "Items": [
+          
+        ],
+        "Name": "The Verge",
+        "Url": "http://www.theverge.com/rss/full.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Science & Technology"
+      },
+      {
+        "Id": "85fd26ca-f27b-460e-81d2-2390f93e28b9",
+        "Title": "Engadget",
+        "Description": "Engadget is a web magazine with obsessive daily coverage of everything new in gadgets and consumer electronics",
+        "ImageUri": "http://storage.googleapis.com/site-assets/4i-1vhCwmRRLfmB7ypTnMh-ZKSvsz6Rgf0lfR0WWb0w_icon-150719f6d2d",
+        "Items": [
+          
+        ],
+        "Name": "Engadget",
+        "Url": "http://www.engadget.com/rss-full.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Science & Technology"
+      },
+      {
+        "Id": "ff8fae19-7297-44c9-9011-78c0b2a379c3",
+        "Title": "TechCrunch",
+        "Description": "TechCrunch is a group-edited blog that profiles the companies, products and events defining and transforming the new web.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/Xne8uW_IUiZhV1EuO2ZMzIrc2Ak6NlhGjboZ-Yk0rJ8_icon-14e42a4d997",
+        "Items": [
+          
+        ],
+        "Name": "TechCrunch",
+        "Url": "http://feeds.feedburner.com/Techcrunch",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Science & Technology"
+      },      
+      {
+        "Id": "68293a4b-dd71-4b75-848d-2321def50e61",
+        "Title": "Livescience.com - Health",
+        "Description": "Livescience.com - Health",
+        "ImageUri": "http://storage.googleapis.com/site-assets/AXHEz-31wKlxjLUqQHkNZdlxsFYbdq5U9FPC6LKFaw4_icon-14d1138895e",
+        "Items": [
+          
+        ],
+        "Name": "Livescience.com - Health",
+        "Url": "http://feeds.livescience.com/livescience/healthscitech?format=xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Science & Technology"
+      }
+    ]
+  },
+  {
+    "Title": "Culture",
+    "Description": "Folder",
+    "Feeds": [
+      {
+        "Id": "71cde59e-b924-4c61-bb4c-250ff6fb480e",
+        "Title": "Brain Pickings",
+        "Description": "interestingness, curated.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/y_OjhWUzyc2_L-QgRQtw37OlnJoPUaP7BF6Gz-IJIQ0_icon-14fe51a080c",
+        "Items": [
+          
+        ],
+        "Name": "Brain Pickings",
+        "Url": "http://feedproxy.google.com/brainpickings/rss",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Culture"
+      },      
+      {
+        "Id": "20c1be5a-395e-417f-9471-ebef271a3665",
+        "Title": "BBC Culture",
+        "Description": "The art, music, film and style site from the BBC",
+        "ImageUri": "http://storage.googleapis.com/site-assets/rtpz9a70Xv-fH-PYTUp0YwbBkvSNtfVrv37BYHjRyUE_icon-15251b968ce",
+        "Items": [
+          
+        ],
+        "Name": "BBC Culture",
+        "Url": "http://www.bbc.com/culture/feed.rss",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Culture"
+      },
+      {
+        "Id": "92d3bf4b-02b8-4fd8-8cd6-e0e868728b3f",
+        "Title": "TEDTalks (video)",
+        "Description": "TED is a nonprofit devoted to Ideas Worth Spreading. On this feed, you'll find TEDTalks video to inspire, intrigue and stir the imagination from some of the world's leading thinkers and doers, speaking from the stage at TED conferences, TEDx events and partner events around the world. This podcast is also available in high-def video and audio-only formats.",
+        "ImageUri": "http://storage.googleapis.com/site-assets/aANiHgsmGDykAZE5mDpF1X6vSBbJgJaU6lIEEstKh6w_icon-14e42a4dd01",
+        "Items": [
+          
+        ],
+        "Name": "TEDTalks (video)",
+        "Url": "http://feeds.feedburner.com/tedtalks_video",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Culture"
+      },
+      {
+        "Id": "5e31967e-a6b5-4c16-aaa3-2adcf7f4081d",
+        "Title": "Dilema Veche",
+        "Description": "\"Sînt vechi, domnule!\" \n(I.L. Caragiale)\n\nwww.dilemaveche.ro",
+        "ImageUri": "http://storage.googleapis.com/site-assets/8_JnaT5-FUKyWEpblYJA97eE_KJAYp7ZjGQPuJ0PnQw_ficon-151497a1097",
+        "Items": [
+          
+        ],
+        "Name": "Dilema Veche",
+        "Url": "http://www.dilemaveche.ro/rss.xml",
+        "LastUpdateTime": null,
+        "ParentGroupName": "Culture"
+      }
+    ]
+  }
+]

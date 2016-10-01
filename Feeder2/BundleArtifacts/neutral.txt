@@ -1,0 +1,4 @@
+MainPackage=G:\dev\WindowsStore\Feeder\Feeder2\bin\Release\FeederApp_2.0.1602.1_AnyCPU.appx
+SymbolPackage=G:\dev\WindowsStore\Feeder\Feeder2\AppPackages\FeederApp_2.0.1602.1_Test\FeederApp_2.0.1602.1_AnyCPU.appxsym
+ResourcePack=G:\dev\WindowsStore\Feeder\Feeder2\bin\Release\FeederApp_2.0.1602.1_scale-100.appx
+ResourcePack=G:\dev\WindowsStore\Feeder\Feeder2\bin\Release\FeederApp_2.0.1602.1_scale-140.appx

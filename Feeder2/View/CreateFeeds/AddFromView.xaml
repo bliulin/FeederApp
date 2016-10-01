@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="Feeder.PivotApp.View.AddFromView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Feeder.PivotApp.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"    
+    >
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="Title">
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Description">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="ListViewItem">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="5 0 0 0"/>
+        </Style>
+
+    </Page.Resources>
+
+    <ScrollViewer VerticalContentAlignment="Stretch" VerticalScrollMode="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Style="{StaticResource Title}" Grid.Row="0"
+                   Text="Add feed source" VerticalAlignment="Top"
+                   Margin="0 0 0 10"/>
+
+            <ListView Grid.Row="1" ItemClick="ListView_ItemClick" IsItemClickEnabled="True">
+                <ListViewItem Margin="0 0 0 20">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="Segoe UI Symbol" 
+                               Style="{StaticResource ListViewItem}">&#xE11A;</TextBlock>
+                        <TextBlock Style="{StaticResource ListViewItem}">Search online for feeds</TextBlock>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="Segoe UI Symbol" Style="{StaticResource ListViewItem}">&#xE104;</TextBlock>
+                        <TextBlock Style="{StaticResource ListViewItem}">Add feed manually</TextBlock>
+                    </StackPanel>
+                </ListViewItem>
+
+            </ListView>
+
+            <ScrollViewer Grid.Row="2" VerticalContentAlignment="Stretch" VerticalScrollMode="Auto">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Style="{StaticResource Description}" TextWrapping="Wrap">... Or choose from the following selection:</TextBlock>
+                    <local:PopularFeedsControl x:Name="popularFeedsCtrl" Grid.Row="1" Margin="0 20 0 0"></local:PopularFeedsControl>
+
+
+                </Grid>
+            </ScrollViewer>
+
+        </Grid>
+    </ScrollViewer>
+    <Page.BottomAppBar>
+        <CommandBar ClosedDisplayMode="Compact">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:Name="btnAccept" 
+                              Label="Done"
+                              Icon="Accept"
+                              Click="btnAccept_Click"/>
+                <AppBarButton x:Name="btnCancel" 
+                              Label="Cancel"
+                              Icon="Cancel"
+                              Click="btnCancel_Click"/>
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+</Page>

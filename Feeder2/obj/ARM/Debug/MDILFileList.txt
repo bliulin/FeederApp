@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <file>\Microsoft.ApplicationInsights.dll</file>
+  <file>\Microsoft.ApplicationInsights.Extensibility.Windows.dll</file>
+  <file>\Microsoft.ApplicationInsights.PersistenceChannel.dll</file>
+  <file>\Microsoft.Practices.ServiceLocation.dll</file>
+  <file>\Microsoft.Practices.Unity.dll</file>
+  <file>\Newtonsoft.Json.dll</file>
+  <file>\Feeder.exe</file>
+</Files>

@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="g:\dev\windowsstore\feeder\feeder2\obj\arm\release\intermediatexaml\feeder.exe" HashGuid="a93d09af-b686-51e3-d814-ccd3b1f77d3e" />
+    <ReferenceAssembly PathName="g:\dev\windowsstore\feeder\packages\microsoft.applicationinsights.1.2.3\lib\portable-win81+wpa81\microsoft.applicationinsights.dll" HashGuid="0170f6f5-5974-138b-c2eb-16e08a194005" />
+    <ReferenceAssembly PathName="g:\dev\windowsstore\feeder\packages\microsoft.applicationinsights.windowsapps.1.1.1\lib\wpa81\microsoft.applicationinsights.extensibility.windows.dll" HashGuid="c6c9a675-baef-7356-0ebc-3e2f9ce7138d" />
+    <ReferenceAssembly PathName="g:\dev\windowsstore\feeder\packages\microsoft.applicationinsights.persistencechannel.1.2.3\lib\portable-win81+wpa81\microsoft.applicationinsights.persistencechannel.dll" HashGuid="7d4d5890-a85d-3f57-c051-8c33c6cbde67" />
+    <ReferenceAssembly PathName="g:\dev\windowsstore\feeder\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="g:\dev\windowsstore\feeder\packages\unity.4.0.1\lib\portable-net45+wp80+win8+wpa81+monoandroid10+monotouch10\microsoft.practices.unity.dll" HashGuid="c877bd0f-99df-0d61-0e86-1fcd5a709a45" />
+    <ReferenceAssembly PathName="g:\dev\windowsstore\feeder\packages\newtonsoft.json.8.0.2\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="38db4215-06d8-4b50-81fc-8e6b502244af" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,11 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"G:\dev\WindowsStore\Feeder\Feeder2\obj\ARM\Release\split.scale-140.pri"			"resources.pri"
+"G:\dev\WindowsStore\Feeder\Feeder2\obj\ARM\Release\PackageLayout\Assets\StoreLogo.scale-140.png"			"Assets\StoreLogo.scale-140.png"
+"G:\dev\WindowsStore\Feeder\Feeder2\obj\ARM\Release\PackageLayout\Assets\Square71x71Logo.scale-140.png"			"Assets\Square71x71Logo.scale-140.png"
+"G:\dev\WindowsStore\Feeder\Feeder2\obj\ARM\Release\PackageLayout\Assets\SplashScreen.scale-140.png"			"Assets\SplashScreen.scale-140.png"
+"G:\dev\WindowsStore\Feeder\Feeder2\obj\ARM\Release\PackageLayout\Assets\SmallLogo.scale-140.png"			"Assets\SmallLogo.scale-140.png"
+"G:\dev\WindowsStore\Feeder\Feeder2\obj\ARM\Release\PackageLayout\Assets\Logo.scale-140.png"			"Assets\Logo.scale-140.png"

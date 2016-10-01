@@ -1,0 +1,1 @@
+G:\dev\WindowsStore\Feeder\Feeder2\FeederApp.csproj;x86
